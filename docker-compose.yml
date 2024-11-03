@@ -1,6 +1,6 @@
 services:
   mongodb:
-    container_name: mongodb
+    container_name: mongodb-5
     image: docker.io/bitnami/mongodb:5.0.24-debian-11-r20
     restart: always
     volumes:
